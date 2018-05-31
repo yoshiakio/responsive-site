@@ -1,6 +1,14 @@
 @charset "UTF-8";    /* 文字コードの指定 */
 @import 'https://fonts.googleapis.com/css?family=Abel';    /* Google Fonts用のCSSを読み込み */
 
+.gothic {
+  font-family:'游ゴシック', YuGothic, 'メイリオ', Verdana, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+}
+.mincho {
+  font-family: '游明朝体', 'Yu Mincho','ヒラギノ明朝 Pro W3','Hiragino Mincho Pro','メイリオ', Meiryo, serif;
+
+}
+
 .box1 {
   background-image: url("../images/img_473_1488875864.jpg");
   height: 500px;
@@ -47,7 +55,7 @@
 .button{
   color: #fff;
   background-color: #87CEFA;
-  border-radius: 5px;
+  border-radius: 7px;
   display: block;
 }
 
@@ -68,9 +76,10 @@
 }
 
 .button{
-  color: #fff;
+   color: #fff;
   background-color: #87CEFA;
-  border-radius: 5px;
+  border-radius: 7px;
+  display: block;
   text-decoration:none;
 }
 
