@@ -1,0 +1,81 @@
+@charset "UTF-8";    /* 文字コードの指定 */
+@import 'https://fonts.googleapis.com/css?family=Abel';    /* Google Fonts用のCSSを読み込み */
+
+.box1 {
+  background-image: url("../images/img_473_1488875864.jpg");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center top;
+  }
+
+.text-center{
+ font-size:40px;
+ text-align: center;
+ margin:50px 10px;
+}
+
+.container{
+  display: flex;
+  padding:50px;
+  margin: 10px;
+  text-align: center;
+}
+
+.box{
+  background-color: #87CEFA;
+  padding:20px;
+  margin: 0px;
+}
+
+.title {
+   background-color: #F9C270;
+  margin: 50px 10px;
+  padding:0px;
+   
+}
+
+@media (max-width: 768px){
+  .title {
+    display: block;
+  }
+ .container {
+    display: block;
+    padding:0px ;
+ }
+    
+.button{
+  color: #fff;
+  background-color: #87CEFA;
+  border-radius: 5px;
+  display: block;
+}
+
+.box1 {
+  height: 250px;
+  background-size: cover;
+  background-position: center top;
+  }
+ 
+}
+
+.title p{
+  padding:30px;
+}
+
+.text{
+  text-align: center;
+}
+
+.button{
+  color: #fff;
+  background-color: #87CEFA;
+  border-radius: 5px;
+  text-decoration:none;
+}
+
+.box2{
+  padding:100px;
+  background-color: #F9C270;
+}
+
